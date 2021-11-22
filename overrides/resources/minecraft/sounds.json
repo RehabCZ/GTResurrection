@@ -1,0 +1,20 @@
+{
+    "sound.gtresurrection.quest_completed": {
+        "category": "ambient",
+        "subtitle": "Quest Completed",
+        "sounds": [{
+            "name": "gtresurrection/task_completed",
+            "volume": 1,
+            "streaming": true
+        }]
+    },
+    "sound.gtresurrection.quest_updated": {
+        "category": "ambient",
+        "subtitle": "Quest Updated",
+        "sounds": [{
+            "name": "gtresurrection/task_updated",
+            "volume": 1,
+            "streaming": true
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+# Line - Introduction
+gtresurrection.line0.name=§6§lIntroduction
+gtresurrection.line0.desc=Basic info about this pack and some useful features you can use.
+
+# Quest - 0
+gtresurrection.quest0.name=§b§lWelcome to §6§lGT Resurrection
+gtresurrection.quest0.desc=This pack is mainly focused on well known mod §bGregTech§r, that recently got ported to version 1.12.2 with acronym §bGTCE§r meaning Community Edtion.\n \nThis brought me to idea of making this pack that implements mods along side of GT using similar recipe structure to make progression a bit harder. There are many mods you may know from other modpacks however with significantly different recipes and behavior.\n \nAny issues or questsions encountered during gampley can be discussed on §cCurseForge§r modpack's issues tab or at our official §1Discord§r server.\n \nHope you will enjoy this pack and don't forget to tell friends about this pack. \n§4Good luck you're going to need it!
+
+# Quest - 1
+gtresurrection.quest1.name=§a§lPackmode
+gtresurrection.quest1.desc=There are few modes that can be applied in order to make the pack a bit §4harder §ror a bit §aeasier!§r\n\nThere are not any major changes to gameplay except some recipes that can be easier or harder depending on your preferences. \nList of available modes can be found here: \n§4Packmode no.1\n§4Packmode no.2\n§4Packmode no.3§r\n\nYou can change the modes in options or using command §c/packmode mode_name§r.\n\n§b§nServer Owners§r\nIn order to apply packmode for your server issue packmode command in your console!
+
+# Quest - 3
+gtresurrection.quest3.name=§9§lJust Enough Items
+gtresurrection.quest3.desc=Since this modpack contains many changed recipes and many ways to craft certain things you will need to get yourself familiar with mod called\n\n§cJust Enough Items§r that adds sidebar in inventory gui which you can use to lookup for certain stuff and recipes.\n\nIf you accidentaly hide it use key combination of §b CTRL + O§r to bring that back.\n\nYou can list things from specific mod by using §b@§r prefix and then modid forex. (@gregtech)
+
+# Quest - 5
+gtresurrection.quest4.name=§3§lNutritions
+gtresurrection.quest4.desc=Food is really important here!\nBecause it really matter what you eat and how well you take care about your hunger and nutritions.\n\nMods changing eating behavior:\n§4Spice of Life§r - You cannot eat same thing over and over again so prepare yourself for quite a big farming part.\n\n§4Nutrition§r - This mod brings nutrition system into the game. Always be sure to check your nutrition status by clicking on §ccarrot§r icon in your inventory!\n\n§6Friendly tip:§r\nStart your journey by collecting as many crops/food as you can!
+
+# Quest - 6
+gtresurrection.quest5.name=§2§lFTB Utilities
+gtresurrection.quest5.desc=FTB Utilities is basically §bEssentials§r for Forge! It adds many useful commands, you will definitely use during this playthrough.\n\n§c§l§nCommands:§r\n§a/sethome§r - Sets place as your home after that you can use home command! You can have multiple homes by putting name after command.\n§a/home§r - Teleports you to your home.\n§a/setwarp§r - Sets place as warp, basically public place for everyone to teleport to! Requires uniqe name.\n§a/warp§r - Teleports you specific warp.\n\n§c§l§nProtection:§r\nYes, you can claim chunks and set protection against other players.\nOpen §aChunks GUI§r by clicking map icon in the top left corner of your inventory screen.\nYou can claim chunks by leftclick on specific place or hold and drag to claim more chunks at once.\n\n§c§l§nChunkloading:§r\nYou can chunkload by shift-left clicking on chunk you claim!\nChunk will keep loaded in memory regardless if you're in the chunk or not.
