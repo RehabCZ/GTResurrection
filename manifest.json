@@ -16,11 +16,6 @@
   "name": "GT Resurrection",
   "external": [
     {
-      "name": "Nutrition",
-      "url": "https://github.com/WesCook/Nutrition/releases/download/v4.9.0/Nutrition-1.12.2-4.9.0.jar",
-      "required": true
-    },
-    {
       "name": "Applied Energistics 2 Trousers Edition",
       "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47h.jar",
       "required": true
@@ -403,8 +398,38 @@
       "required": true
     },
     {
-      "projectID": 271856,
-      "fileID": 2827665,
+      "projectID": 237903,
+      "fileID": 3330308,
+      "required": true
+    },
+    {
+      "projectID": 253462,
+      "fileID": 2834651,
+      "required": true
+    },
+    {
+      "projectID": 310375,
+      "fileID": 2683258,
+      "required": true
+    },
+    {
+      "projectID": 237541,
+      "fileID": 2700798,
+      "required": true
+    },
+    {
+      "projectID": 270466,
+      "fileID": 2705433,
+      "required": true
+    },
+    {
+      "projectID": 273771,
+      "fileID": 3517236,
+      "required": true
+    },
+    {
+      "projectID": 242106,
+      "fileID": 2539562,
       "required": true
     },
     {
