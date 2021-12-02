@@ -1,1 +1,2 @@
-- GregTech x UndergroundBiomes compat
+### Notes for modpack
+- *GregTech x UndergroundBiomes compat*
