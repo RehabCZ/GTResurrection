@@ -6,8 +6,7 @@ import json
 import hashlib
 
 modlist = []
-basePath = os.path.realpath(__file__)[:-7] + ".."
-copyDirs = ["/scripts", "/resources", "/config", "/mods"]
+basePath = os.path.realpath(__file__)[:-9] + ".."
 serverCopyDirs = ["/scripts", "/config", "/mods"]
 modURLlist = []
 
@@ -15,10 +14,9 @@ with open(basePath + "/manifest.json") as file:
     manifest = json.load(file)
 
 try:
-    os.makedirs(basePath + "/buildOut/client/overrides")
     os.makedirs(basePath + "/buildOut/server")
     os.makedirs(basePath + "/mods")
-    print("make directories")
+    print("Make server directories")
 except Exception as e:
     print("Directory exists, skipping")
 
@@ -33,24 +31,11 @@ for mod in manifest["external"]:
             if str(hash) == mod["hash"]:
                 jar.write(r.content)
                 modlist.append(mod["name"])
-                print("hash succsessful")
+                print("Hash succsessful")
                 break
             else:
-                print("hash unsuccsessful")
+                print("Hash unsuccsessful")
                 pass
-
-for dir in copyDirs:
-    try:
-        shutil.copytree(basePath + dir, basePath +
-                        "/buildOut/client/overrides" + dir)
-    except Exception as e:
-        print("Directory exists, skipping")
-print("directories copied to buildOut/client")
-
-shutil.copy(basePath + "/manifest.json", basePath +
-            "/buildOut/client/manifest.json")
-shutil.make_archive("buildOut/client", "zip", basePath + "/buildOut/client")
-print("client zip made")
 
 for mod in manifest["files"]:
     url = "https://cursemeta.dries007.net/" + \
@@ -59,7 +44,7 @@ for mod in manifest["files"]:
     metadata = json.loads(r.text)
     modlist.append(metadata["FileName"])
     modURLlist.append(metadata["DownloadURL"])
-print("modlist compiled")
+print("Modlist compiled")
 
 with open(basePath + "/buildOut/modlist.html", "w") as file:
     data = "<html><body><h1>GT Resurrection modlist</h1><ul>"
@@ -80,7 +65,7 @@ for dir in serverCopyDirs:
         shutil.copytree(basePath + dir, basePath + "/buildOut/server" + dir)
     except Exception as e:
         print("Directory exists, skipping")
-print("directories copied to buildOut/server")
+print("Directories copied to buildOut/server")
 
 for mod in modURLlist:
     with open(basePath + "/buildOut/server/mods/" + mod.split("/")[-1], "w+b") as jar:
@@ -120,5 +105,5 @@ except Exception as e:
     print("Couldn't delete forge-installer.jar.log")
 
 shutil.make_archive("buildOut/server", "zip", basePath + "/buildOut/server")
-print("server zip made")
-print("done")
+print("Server zip made")
+print("Done")
