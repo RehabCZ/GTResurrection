@@ -1,0 +1,1 @@
+recipes.remove(<immersiveengineering:treated_wood>);

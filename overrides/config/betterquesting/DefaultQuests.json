@@ -1,0 +1,378 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:cosmetic",
+            "Count:3": 1,
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§b§lWelcome to §6§lGT Resurrection",
+          "desc:8": "This pack is mainly focused on well known mod §bGregTech§r, that recently got ported to version 1.12.2 with acronym §bGTCE§r meaning Community Edtion.\n \nThis brought me to idea of making this pack that implements mods along side of GT using similar recipe structure to make progression a bit harder. There are many mods you may know from other modpacks however with significantly different recipes and behavior.\n \nAny issues or questsions encountered during gampley can be discussed on §cCurseForge§r modpack\u0027s issues tab or at our official §1Discord§r server.\n \nHope you will enjoy this pack and don\u0027t forget to tell friends about this pack. \n§4Good luck you\u0027re going to need it!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "cookingforblockheads:recipe_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§a§lPackmode",
+          "desc:8": "There are few modes that can be applied in order to make the pack a bit §4harder §ror a bit §aeasier!§r\n\nThere are not any major changes to gameplay except some recipes that can be easier or harder depending on your preferences. \nList of available modes can be found here: \n§4Packmode no.1\n§4Packmode no.2\n§4Packmode no.3§r\n\nYou can change the modes in options or using command §c/packmode mode_name§r.\n\n§b§nServer Owners§r\nIn order to apply packmode for your server issue packmode command in your console!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "industrialforegoing:book_manual",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§9§lJust Enough Items",
+          "desc:8": "Since this modpack contains many changed recipes and many ways to craft certain things you will need to get yourself familiar with mod called\n\n§cJust Enough Items§r that adds sidebar in inventory gui which you can use to lookup for certain stuff and recipes.\n\nIf you accidentaly hide it use key combination of §b CTRL + O§r to bring that back.\n\nYou can list things from specific mod by using §b@§r prefix and then modid forex. (@gregtech)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "solcarrot:food_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§3§lSpice Of Life",
+          "desc:8": "Food is really important here!\nBecause it really matter what you eat and how well you take care about your hunger and nutritions.\n\n§4Spice of Life§r - You cannot eat same thing over and over again so prepare yourself for quite a big farming part.\n\nOf course there are amyn mods with additional food and crops like well known \n§cPam\u0027s Harvestcraft§r!\n\n§6Friendly tip:§r\nStart your journey by collecting as many crops/food as you can!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ebwizardry:ruined_spell_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§2§lFTB Utilities",
+          "desc:8": "FTB Utilities is basically §bEssentials§r for Forge! It adds many useful commands, you will definitely use during this playthrough.\n\n§c§l§nCommands:§r\n§a/sethome§r - Sets place as your home after that you can use home command! You can have multiple homes by putting name after command.\n§a/home§r - Teleports you to your home.\n§a/setwarp§r - Sets place as warp, basically public place for everyone to teleport to! Requires uniqe name.\n§a/warp§r - Teleports you specific warp.\n\n§c§l§nProtection:§r\nYes, you can claim chunks and set protection against other players.\nOpen §aChunks GUI§r by clicking map icon in the top left corner of your inventory screen.\nYou can claim chunks by leftclick on specific place or hold and drag to claim more chunks at once.\n\n§c§l§nChunkloading:§r\nYou can chunkload by shift-left clicking on chunk you claim!\nChunk will keep loaded in memory regardless if you\u0027re in the chunk or not."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "§8§lDamn Flint you\u0027re looking great!",
+          "desc:8": "Well that\u0027s right we\u0027re gonna start your journey by collecting some flints and sticks...\nYeah i know this might be similar to many other packs but trust me!\n \nAfter you collect some §7Flints§r and some §cSticks§r. Take those §7Flints§r and hit them against some rock and you\u0027ll get §8Flake flint§r!\n \nYou can now switch to next task and craft flint tools.\n \n§6Man these are really great for beginning!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": "itemFlint"
+            },
+            "1:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": "stickWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_knapp",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "flakeFlint"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 32,
+          "x:3": -248,
+          "y:3": -96,
+          "id:3": 0,
+          "sizeY:3": 32
+        },
+        "1:10": {
+          "sizeX:3": 16,
+          "x:3": -212,
+          "y:3": -88,
+          "id:3": 1,
+          "sizeY:3": 16
+        },
+        "2:10": {
+          "sizeX:3": 16,
+          "x:3": -192,
+          "y:3": -88,
+          "id:3": 2,
+          "sizeY:3": 16
+        },
+        "3:10": {
+          "sizeX:3": 16,
+          "x:3": -152,
+          "y:3": -88,
+          "id:3": 3,
+          "sizeY:3": 16
+        },
+        "4:10": {
+          "sizeX:3": 16,
+          "x:3": -172,
+          "y:3": -88,
+          "id:3": 4,
+          "sizeY:3": 16
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "§6§lIntroduction",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "botania:cosmetic",
+            "Count:3": 1,
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Basic info about this pack and some useful features you can use."
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -116,
+          "y:3": -36,
+          "id:3": 5,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "§2§lGreenhorn",
+          "icon:10": {
+            "id:8": "minecraft:grass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Oh that sweet moment when you started this pack for the fisrt time!"
+        }
+      },
+      "order:3": 1
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "gtresurrection",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}

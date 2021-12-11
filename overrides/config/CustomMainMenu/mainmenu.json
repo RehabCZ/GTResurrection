@@ -1,0 +1,174 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:textures/GT_Resurrection.png",
+            "posX" : 10,
+            "posY" : 10,
+            "width" : 260,
+            "height" : 90,
+            "imageWidth": 2062,
+            "imageHeight": 580,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 20,
+            "posY" : -20,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "mainmenu:textures/btn.png",
+            "imageWidth": 200,
+            "imageHeight": 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 20,
+            "posY" : 5,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "mainmenu:textures/btn.png",
+            "imageWidth": 200,
+            "imageHeight": 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 20,
+            "posY" : 30,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "mainmenu:textures/btn.png",
+            "imageWidth": 200,
+            "imageHeight": 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 20,
+            "posY" : 55,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "mainmenu:textures/btn.png",
+            "imageWidth": 200,
+            "imageHeight": 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 20,
+            "posY" : 80,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "mainmenu:textures/btn.png",
+            "imageWidth": 200,
+            "imageHeight": 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 180,
+            "posY" : 80,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "\u00A74Copyright Mojang AB. Do not distribute!",
+            "posX" : -160,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.minecraft.net/en-us/realms/terms"
+            }
+        },
+        
+        "music":
+        {
+            "text" : "Music by Aim To Head",
+            "hoverText" : "\u00A7nMusic by Aim To Head",
+            "posX" : 5,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.youtube.com/channel/UC1KJEk-EZMmDF9DJKMK5OCQ"
+            }
+        }
+    },
+    
+    "other":
+    {
+      
+        "background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:textures/background/bg.png",
+					"mainmenu:textures/background/bg2.png",
+					"mainmenu:textures/background/bg4.png",
+					"mainmenu:textures/background/bg7.png"
+				],
+				"displayDuration": 150,
+				"fadeDuration": 40
+			}
+		}
+    }
+}
