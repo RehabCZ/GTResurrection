@@ -49,8 +49,8 @@ recipes.addShapedMirrored("TConstruct Flint Shard",<tconstruct:shard>.withTag({M
 
 # TConstruct Flint Pickaxe Head
 recipes.addShaped("TConstruct Flint Pickaxe Head",flint_pick_head, [
-    [<ore:flakeFlint>, <ore:itemFlint>, null],
-    [null, <ore:flakeFlint>, null], 
+    [null,<ore:flakeFlint>, <ore:itemFlint>],
+    [null, null, <ore:flakeFlint>], 
     [null, null, null]
 ]);
 
@@ -62,10 +62,8 @@ recipes.addShapedMirrored("TConstruct Flint Sword Head",flint_sword_head, [
 ]);
 
 # TConstruct Flint Shovel Head
-recipes.addShapedMirrored("TConstruct Flint Shovel Head",flint_shovel_head, [
-    [<ore:itemFlint>, null, null],
-    [null, null, null], 
-    [null, null, null]
+recipes.addShapeless("TConstruct Flint Shovel Head",flint_shovel_head, [
+    <ore:itemFlint>
 ]);
 
 # TConstruct Flint Axe Head
@@ -79,26 +77,18 @@ recipes.addShaped("TConstruct Flint Axe Head",flint_axe_head, [
     Add Recipes for GregTech Flint Tools
 */
 
-recipes.addShaped("GregTech Flint Axe",flint_axe, [
-    [<tconstruct:axe_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), null, null],
-    [<ore:stickWood>, null, null], 
-    [null, null, null]
+recipes.addShapeless("GregTech Flint Axe",flint_axe, [
+    <tconstruct:axe_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <ore:stickWood>
 ]);
 
-recipes.addShapedMirrored("GregTech Flint Shovel",flint_shovel, [
-    [<tconstruct:shovel_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), null, null],
-    [<ore:stickWood>, null, null], 
-    [null, null, null]
+recipes.addShapeless("GregTech Flint Shovel",flint_shovel, [
+    <tconstruct:shovel_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <ore:stickWood>
 ]);
 
-recipes.addShaped("GregTech Flint Pickaxe",flint_pickaxe, [
-    [<tconstruct:pick_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), null, null],
-    [<ore:stickWood>, null, null], 
-    [null, null, null]
+recipes.addShapeless("GregTech Flint Pickaxe",flint_pickaxe, [
+    <tconstruct:pick_head>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <ore:stickWood>
 ]);
 
-recipes.addShapedMirrored("GregTech Flint Sword",flint_sword, [
-    [<tconstruct:sword_blade>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), null, null],
-    [<ore:stickWood>, null, null], 
-    [null, null, null]
+recipes.addShapeless("GregTech Flint Sword",flint_sword, [
+    <tconstruct:sword_blade>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"}), <ore:stickWood>
 ]);

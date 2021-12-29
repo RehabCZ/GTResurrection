@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.jei.JEI;
 
 # Wooden Stick
 <ore:stickWood>.add(<minecraft:stick>);
@@ -42,3 +43,11 @@ for item in wooden_doors { <ore:doorWood>.add(item); }
 <ore:dustObsidian>.add(<thermalfoundation:material:770>);
 <ore:dustArdite>.add(<enderio:item_material:30>);
 <ore:foodSalt>.add(<mekanism:salt>);
+
+# JackHammer
+JEI.removeAndHide(<advancedrocketry:jackhammer>);
+
+# Battery
+val batteries = [
+
+]as IItemStack[];

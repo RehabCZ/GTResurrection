@@ -1,17 +1,19 @@
 #priority 1000
 
-# CT Imports
+# CT Imports #
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.oredict.IOreDictEntry;
 
 
-# Mod Imports
+# Mod Imports #
 import mods.gtadditions.recipe.Utils;
 import mods.gtadditions.recipe.LargeRecipeMap;
 import mods.gtadditions.recipe.GARecipeMaps;
 import mods.gregtech.recipe.RecipeMap;
 
-# GT Machines
+# GT Machines #
 global alloyer as RecipeMap = RecipeMap.getByName("alloy_smelter");
 global brewery as RecipeMap = RecipeMap.getByName("brewer");
 global extruder as RecipeMap = RecipeMap.getByName("extruder");
@@ -47,5 +49,12 @@ global distillation_tower as RecipeMap = RecipeMap.getByName("distillery");
 global forming_press as RecipeMap = RecipeMap.getByName("forming_press");
 
 
-# GT Tiers
+# GT Tiers #
 global voltageTiers as string[] = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv", "umv", "uxv"];
+
+# Functions #
+
+global getAndRemove as function(IItemStack)void = function(item as IItemStack) as void {
+    var oredict = item.definition.ores as IOreDictEntry[];
+    for value in oredict { value.remove(item); }
+};

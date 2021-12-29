@@ -3,10 +3,10 @@
     {
         "title":
         {
-            "image" : "mainmenu:textures/GT_Resurrection.png",
+            "image" : "gtresurrection:textures/menu/logo/GT_Resurrection.png",
             "posX" : 10,
             "posY" : 10,
-            "width" : 260,
+            "width" : 300,
             "height" : 90,
             "imageWidth": 2062,
             "imageHeight": 580,
@@ -24,7 +24,7 @@
             "width" : 150,
             "height" : 20,
             "alignment" : "left_center",
-            "texture" : "mainmenu:textures/btn.png",
+            "texture" : "gtresurrection:textures/menu/buttons/btn_texture.png",
             "imageWidth": 200,
             "imageHeight": 20,
             "action" : 
@@ -42,7 +42,7 @@
             "width" : 150,
             "height" : 20,
             "alignment" : "left_center",
-            "texture" : "mainmenu:textures/btn.png",
+            "texture" : "gtresurrection:textures/menu/buttons/btn_texture.png",
             "imageWidth": 200,
             "imageHeight": 20,
             "action" : 
@@ -60,7 +60,7 @@
             "width" : 150,
             "height" : 20,
             "alignment" : "left_center",
-            "texture" : "mainmenu:textures/btn.png",
+            "texture" : "gtresurrection:textures/menu/buttons/btn_texture.png",
             "imageWidth": 200,
             "imageHeight": 20,
             "action" : 
@@ -78,7 +78,7 @@
             "width" : 150,
             "height" : 20,
             "alignment" : "left_center",
-            "texture" : "mainmenu:textures/btn.png",
+            "texture" : "gtresurrection:textures/menu/buttons/btn_texture.png",
             "imageWidth": 200,
             "imageHeight": 20,
             "action" : 
@@ -96,27 +96,12 @@
             "width" : 150,
             "height" : 20,
             "alignment" : "left_center",
-            "texture" : "mainmenu:textures/btn.png",
+            "texture" : "gtresurrection:textures/menu/buttons/btn_quit.png",
             "imageWidth": 200,
             "imageHeight": 20,
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : 180,
-            "posY" : 80,
-            "width" : 20,
-            "height" : 20,
-            "alignment" : "left_center",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
             }
         }
     },
@@ -161,10 +146,10 @@
 			"image": "",
 			"slideshow": {
 				"images": [
-					"mainmenu:textures/background/bg.png",
-					"mainmenu:textures/background/bg2.png",
-					"mainmenu:textures/background/bg4.png",
-					"mainmenu:textures/background/bg7.png"
+					"gtresurrection:textures/menu/background/bg.png",
+					"gtresurrection:textures/menu/background/bg2.png",
+					"gtresurrection:textures/menu/background/bg4.png",
+					"gtresurrection:textures/menu/background/bg7.png"
 				],
 				"displayDuration": 150,
 				"fadeDuration": 40

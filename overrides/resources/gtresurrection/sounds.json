@@ -1,0 +1,10 @@
+{
+    "task_updated": {
+        "sounds": ["gtresurrection:task_updated"],
+        "subtitle": "gtr.subtitle.task_updated"
+    },
+    "task_completed": {
+        "sounds": ["gtresurrection:task_completed"],
+        "subtitle": "gtr.subtitle.task_completed"
+    }
+}

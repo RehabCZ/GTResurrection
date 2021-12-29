@@ -1,3 +1,5 @@
+#loader gregtech
+
 import mods.gregtech.material.MaterialCasting;
 import mods.devtech.machines.RegisterMachine;
 
