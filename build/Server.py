@@ -15,13 +15,13 @@ with open(basePath + "/manifest.json") as file:
 
 try:
     os.makedirs(basePath + "/buildOut/server")
-    os.makedirs(basePath + "/mods")
+    os.makedirs(basePath + "/overrides/mods")
     print("Make server directories")
 except Exception as e:
     print("Directory exists, skipping")
 
 for mod in manifest["external"]:
-    with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
+    with open(basePath + "/overrides/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
         r = requests.get(mod["url"])
         for i in range(1, 100):
             if i == 99:
@@ -62,7 +62,8 @@ shutil.copy(basePath + "/launch.bat", basePath + "/buildOut/server/launch.bat")
 
 for dir in serverCopyDirs:
     try:
-        shutil.copytree(basePath + dir, basePath + "/buildOut/server" + dir)
+        shutil.copytree(basePath + "/overrides" + dir,
+                        basePath + "/buildOut/server" + dir)
     except Exception as e:
         print("Directory exists, skipping")
 print("Directories copied to buildOut/server")

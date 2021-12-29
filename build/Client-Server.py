@@ -17,13 +17,13 @@ with open(basePath + "/manifest.json") as file:
 try:
     os.makedirs(basePath + "/buildOut/client/overrides")
     os.makedirs(basePath + "/buildOut/server")
-    os.makedirs(basePath + "/mods")
+    os.makedirs(basePath + "/overrides/mods")
     print("Make directories")
 except Exception as e:
     print("Directory exists, skipping")
 
 for mod in manifest["external"]:
-    with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
+    with open(basePath + "/overrides/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
         r = requests.get(mod["url"])
         for i in range(1, 100):
             if i == 99:
@@ -41,7 +41,7 @@ for mod in manifest["external"]:
 
 for dir in copyDirs:
     try:
-        shutil.copytree(basePath + dir, basePath +
+        shutil.copytree(basePath + "/overrides" + dir, basePath +
                         "/buildOut/client/overrides" + dir)
     except Exception as e:
         print("Directory exists, skipping")
@@ -72,7 +72,8 @@ shutil.copy(basePath + "/launch.bat", basePath + "/buildOut/server/launch.bat")
 
 for dir in serverCopyDirs:
     try:
-        shutil.copytree(basePath + dir, basePath + "/buildOut/server" + dir)
+        shutil.copytree(basePath + "/overrides" + dir,
+                        basePath + "/buildOut/server" + dir)
     except Exception as e:
         print("Directory exists, skipping")
 print("Directories copied to buildOut/server")
@@ -94,8 +95,6 @@ with open(basePath + "/buildOut/server/forge-installer.jar", "w+b") as jar:
     r = requests.get(url)
     jar.write(r.content)
 print("Forge installer Downloaded")
-
-# TODO: make a portable version between versions
 
 with open(basePath + "/buildOut/server/minecraft_server.1.12.2.jar", "w+b") as jar:
     url = "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar"

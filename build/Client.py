@@ -15,13 +15,13 @@ with open(basePath + "/manifest.json") as file:
 
 try:
     os.makedirs(basePath + "/buildOut/client/overrides")
-    os.makedirs(basePath + "/mods")
+    os.makedirs(basePath + "/overrides/mods")
     print("Make client directories")
 except Exception as e:
     print("Directory exists, skipping")
 
 for mod in manifest["external"]:
-    with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
+    with open(basePath + "/overrides/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
         r = requests.get(mod["url"])
         for i in range(1, 100):
             if i == 99:
@@ -39,7 +39,7 @@ for mod in manifest["external"]:
 
 for dir in copyDirs:
     try:
-        shutil.copytree(basePath + dir, basePath +
+        shutil.copytree(basePath + "/overrides" + dir, basePath +
                         "/buildOut/client/overrides" + dir)
     except Exception as e:
         print("Directory exists, skipping")
