@@ -29,13 +29,17 @@ gtresurrection.line1.name=§2§lGreenhorn
 gtresurrection.line1.desc=Oh that sweet moment when you started this pack for the fisrt time!
 
 # Quest - 5
-gtresurrection.quest5.name=§8§lDamn Flint you're looking great!
-gtresurrection.quest5.desc=Well that's right we're gonna start your journey by collecting some flints and sticks...\nYeah i know this might be similar to many other packs but trust me!\n \nAfter you collect some §7Flints§r and some §cSticks§r. Take those §7Flints§r and hit them against some rock and you'll get §8Flake flint§r!\n\nYou can now switch to next task and craft flint tools.\n\n§6Man these are really great for beginning!
+gtresurrection.quest5.name=§7§lWhere it all began!
+gtresurrection.quest5.desc=This first chapter is basically about vanilla stuff.\n As you will progress further you will definitely notice significant changes in recipes and gameplay. \n \nThis questbook will guide you through this pack and mods included in this pack.
 
 # Quest - 6
-gtresurrection.quest6.name=§7§lYo, that's some good tools!
-gtresurrection.quest6.desc=
+gtresurrection.quest6.name=§8§lDamn Flint you're looking great!
+gtresurrection.quest6.desc=Well that's right we're gonna start your journey by collecting some flints and sticks...\nYeah i know this might be similar to many other packs but trust me!\n \nAfter you collect some §7Flints§r and some §cSticks§r. Take those §7Flints§r and hit them against some rock and you'll get §8Flake flint§r!\n\nYou can now switch to next task and craft flint tools.\n\n§6Man these are really great for beginning!
 
 # Quest - 7
-gtresurrection.quest6.name=§6§lLumberjack
-gtresurrection.quest6.desc=
+gtresurrection.quest7.name=§7§lYo, that's some good tools!
+gtresurrection.quest7.desc=§8§lGregTech §7Flint Tools §rare really great stuff to begin with!\n \nThey have pretty decent stats for flint tools yet they have some handy abilities.\n \nFor example §8GT Axes§r has ability to chop down whole tree.
+
+# Quest - 8
+gtresurrection.quest8.name=§6§lLumberjack
+gtresurrection.quest8.desc=I bet you tried crafting logs into planks!\nSo for you to chop logs into planks you need §cCutting Board§r!\n \n§4§l§nWorking with Cutting Board§r\n- Firs off place cutting board on the ground.\n- Take any logs you have an right click on cutting board with them.\n- Grab Axe and left click on cutting board. (You may see progress on top of your screen)

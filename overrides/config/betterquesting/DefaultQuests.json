@@ -1,11 +1,22 @@
 {
-  "format:8": "2.0.0",
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "gtresurrection",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  },
   "questDatabase:9": {
     "0:10": {
-      "questID:3": 0,
-      "preRequisites:11": [
-        1
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -16,9 +27,6 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
             "id:8": "botania:cosmetic",
             "Count:3": 1,
             "Damage:2": 31,
@@ -36,17 +44,15 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 0
     },
     "1:10": {
-      "questID:3": 1,
-      "preRequisites:11": [
-        2
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -54,15 +60,12 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "cookingforblockheads:recipe_book",
+            "id:8": "gregtech:meta_item_1",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32009,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -77,17 +80,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        0
+      ],
+      "questID:3": 1
     },
     "2:10": {
-      "questID:3": 2,
-      "preRequisites:11": [
-        4
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -95,7 +98,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "industrialforegoing:book_manual",
@@ -115,15 +118,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        1
+      ],
+      "questID:3": 2
     },
     "3:10": {
-      "questID:3": 3,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -131,7 +136,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "solcarrot:food_book",
@@ -151,17 +156,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        4
+      ],
+      "questID:3": 3
     },
     "4:10": {
-      "questID:3": 4,
-      "preRequisites:11": [
-        3
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -169,7 +174,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "ebwizardry:ruined_spell_book",
@@ -189,17 +194,53 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        2
+      ],
+      "questID:3": 4
     },
     "5:10": {
-      "questID:3": 5,
-      "preRequisites:11": [
-        3
-      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:cosmetic",
+            "Count:3": 1,
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "§7§lWhere it all began!",
+          "desc:8": "This first chapter is basically about vanilla stuff.\n As you will progress further you will definitely notice significant changes in recipes and gameplay. \n \nThis questbook will guide you through this pack and mods included in this pack."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 5
+    },
+    "6:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -228,11 +269,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 1,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:flint",
@@ -247,15 +287,15 @@
               "OreDict:8": "stickWood"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         },
         "1:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 1,
+          "groupDetect:1": 1,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "primal:flint_knapp",
@@ -264,13 +304,12 @@
               "OreDict:8": "flakeFlint"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
           "rewards:9": {
             "0:10": {
               "id:8": "primal:flint_knapp",
@@ -278,15 +317,17 @@
               "Damage:2": 0,
               "OreDict:8": "flakeFlint"
             }
-          }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
         }
-      }
-    },
-    "6:10": {
-      "questID:3": 6,
+      },
       "preRequisites:11": [
         5
       ],
+      "questID:3": 6
+    },
+    "7:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -299,10 +340,10 @@
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
             "Count:3": 1,
+            "Damage:2": 0,
             "tag:10": {
               "Material:8": "flint"
             },
-            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -312,71 +353,68 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "§7§lYo, that\u0027s some good tools!",
-          "desc:8": "No Description"
+          "desc:8": "§8§lGregTech §7Flint Tools §rare really great stuff to begin with!\n \nThey have pretty decent stats for flint tools yet they have some handy abilities.\n \nFor example §8GT Axes§r has ability to chop down whole tree."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:sword_blade",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "Material:8": "flint"
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "tconstruct:pick_head",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "Material:8": "flint"
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "tconstruct:axe_head",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "Material:8": "flint"
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "tconstruct:shovel_head",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "Material:8": "flint"
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         },
         "1:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "id:8": "gregtech:meta_tool",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "GT.ToolStats:10": {
                   "MaxDurability:3": 80,
@@ -386,15 +424,12 @@
                   "HarvestLevel:3": 1
                 }
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "id:8": "gregtech:meta_tool",
               "Count:3": 1,
+              "Damage:2": 1,
               "tag:10": {
                 "GT.ToolStats:10": {
                   "MaxDurability:3": 80,
@@ -404,15 +439,12 @@
                   "HarvestLevel:3": 1
                 }
               },
-              "Damage:2": 1,
               "OreDict:8": ""
             },
             "2:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "id:8": "gregtech:meta_tool",
               "Count:3": 1,
+              "Damage:2": 3,
               "tag:10": {
                 "GT.ToolStats:10": {
                   "MaxDurability:3": 80,
@@ -422,15 +454,12 @@
                   "HarvestLevel:3": 1
                 }
               },
-              "Damage:2": 3,
               "OreDict:8": ""
             },
             "3:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "id:8": "gregtech:meta_tool",
               "Count:3": 1,
+              "Damage:2": 2,
               "tag:10": {
                 "GT.ToolStats:10": {
                   "MaxDurability:3": 80,
@@ -440,27 +469,27 @@
                   "HarvestLevel:3": 1
                 }
               },
-              "Damage:2": 2,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         }
       },
       "rewards:9": {
         "0:10": {
           "amount:3": 15,
-          "rewardID:8": "bq_standard:xp",
           "isLevels:1": 0,
+          "rewardID:8": "bq_standard:xp",
           "index:3": 0
         }
-      }
-    },
-    "7:10": {
-      "questID:3": 7,
+      },
       "preRequisites:11": [
         6
       ],
+      "questID:3": 7
+    },
+    "8:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -471,9 +500,6 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
             "id:8": "harvestcraft:cuttingboarditem",
             "Count:3": 1,
             "Damage:2": 0,
@@ -486,21 +512,21 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "§6§lLumberjack",
-          "desc:8": "No Description"
+          "desc:8": "I bet you tried crafting logs into planks!\nSo for you to chop logs into planks you need §cCutting Board§r!\n \n§4§l§nWorking with Cutting Board§r\n- Firs off place cutting board on the ground.\n- Take any logs you have an right click on cutting board with them.\n- Grab Axe and left click on cutting board. (You may see progress on top of your screen)"
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "horsepower:chopping_block",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "textureBlock:10": {
                   "id:8": "minecraft:log",
@@ -508,19 +534,18 @@
                   "Damage:2": 0
                 }
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         },
         "1:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 1,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:planks",
@@ -529,13 +554,12 @@
               "OreDict:8": "plankWood"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0,
           "choices:9": {
             "0:10": {
               "id:8": "minecraft:torch",
@@ -549,23 +573,25 @@
               "Damage:2": 0,
               "OreDict:8": ""
             }
-          }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
         }
-      }
-    },
-    "8:10": {
-      "questID:3": 8,
+      },
       "preRequisites:11": [
         7
       ],
+      "questID:3": 8
+    },
+    "9:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "gtresurrection:task_completed",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:tooltables",
@@ -575,7 +601,7 @@
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "gtresurrection:task_updated",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
@@ -586,11 +612,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "tconstruct:tooltables",
@@ -599,34 +624,35 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "9:10": {
-      "questID:3": 9,
+      "rewards:9": {},
       "preRequisites:11": [
-        6
+        8
       ],
+      "questID:3": 9
+    },
+    "10:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "gtresurrection:task_completed",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:cobblestone",
+            "id:8": "primal:rock_stone",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "gtresurrection:task_updated",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
@@ -635,31 +661,64 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        7
+      ],
+      "questID:3": 10
     },
-    "10:10": {
-      "questID:3": 10,
+    "11:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
       "preRequisites:11": [
         9
       ],
+      "questID:3": 11
+    },
+    "12:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "gtresurrection:task_completed",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:furnace",
+            "id:8": "futuremc:campfire",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "gtresurrection:task_updated",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
@@ -668,57 +727,708 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        10
+      ],
+      "questID:3": 12
+    },
+    "13:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "futuremc:blast_furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        12
+      ],
+      "questID:3": 13
+    },
+    "14:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bed",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        9
+      ],
+      "questID:3": 14
+    },
+    "15:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:basicdrawers",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "tag:10": {
+              "material:8": "oak"
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        11
+      ],
+      "questID:3": 15
+    },
+    "16:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:framingtable",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        15
+      ],
+      "questID:3": 16
+    },
+    "17:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:fishing_rod",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "betterwithmods:baited_fishing_rod:10": {
+                "bait:1": 0
+              }
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        20
+      ],
+      "questID:3": 17
+    },
+    "18:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "primal:fish_trap",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "type:8": "oak"
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        17
+      ],
+      "questID:3": 18
+    },
+    "19:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:groundtrap",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        21
+      ],
+      "questID:3": 19
+    },
+    "20:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "futuremc:sweet_berries",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "§2§lHerbalism",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        6
+      ],
+      "questID:3": 20
+    },
+    "21:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:wheat_seeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        20
+      ],
+      "questID:3": 21
+    },
+    "22:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:pattern",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        13
+      ],
+      "questID:3": 22
+    },
+    "23:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ceramics:clay_bucket_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        13
+      ],
+      "questID:3": 23
+    },
+    "24:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:rack",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "minecraft:wooden_slab",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        25
+      ],
+      "questID:3": 24
+    },
+    "25:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:porkchop",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        19
+      ],
+      "questID:3": 25
+    },
+    "26:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:written_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        14
+      ],
+      "questID:3": 26
+    },
+    "27:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:scythe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "wood",
+                  "1:8": "wood",
+                  "2:8": "wood",
+                  "3:8": "wood"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Stats:10": {
+                "Durability:3": 123,
+                "HarvestLevel:3": 0,
+                "Attack:5": 1.5,
+                "MiningSpeed:5": 1.5,
+                "AttackSpeedMultiplier:5": 1.0,
+                "FreeModifiers:3": 3
+              },
+              "StatsOriginal:10": {
+                "Durability:3": 123,
+                "HarvestLevel:3": 0,
+                "Attack:5": 1.5,
+                "MiningSpeed:5": 1.5,
+                "AttackSpeedMultiplier:5": 1.0,
+                "FreeModifiers:3": 3
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "weapon",
+                  "1:8": "aoe",
+                  "2:8": "harvest",
+                  "3:8": "tool"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "ecological",
+                  "color:3": -7444965,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "ecological",
+                "1:8": "toolleveling"
+              }
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        21,
+        22
+      ],
+      "questID:3": 27
+    },
+    "28:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:mattock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "wood",
+                  "1:8": "wood",
+                  "2:8": "wood"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Stats:10": {
+                "Durability:3": 45,
+                "HarvestLevel:3": 0,
+                "Attack:5": 4.5,
+                "MiningSpeed:5": 1.5,
+                "AttackSpeedMultiplier:5": 1.0,
+                "FreeModifiers:3": 3,
+                "HarvestLevelAxe:3": 0,
+                "HarvestLevelShovel:3": 0
+              },
+              "StatsOriginal:10": {
+                "Durability:3": 45,
+                "HarvestLevel:3": 0,
+                "Attack:5": 4.5,
+                "MiningSpeed:5": 1.5,
+                "AttackSpeedMultiplier:5": 1.0,
+                "FreeModifiers:3": 3,
+                "HarvestLevelAxe:3": 0,
+                "HarvestLevelShovel:3": 0
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "aoe",
+                  "1:8": "harvest",
+                  "2:8": "tool"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "ecological",
+                  "color:3": -7444965,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "ecological",
+                "1:8": "toolleveling"
+              }
+            },
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        27
+      ],
+      "questID:3": 28
+    },
+    "29:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "gtresurrection:task_completed",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "futuremc:smoker",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "gtresurrection:task_updated",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        13
+      ],
+      "questID:3": 29
     }
   },
   "questLines:9": {
     "0:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -272,
-          "y:3": -144,
-          "id:3": 0,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -256,
-          "y:3": -120,
-          "id:3": 1,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -240,
-          "y:3": -144,
-          "id:3": 2,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": -208,
-          "y:3": -144,
-          "id:3": 3,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": -220,
-          "y:3": -120,
-          "id:3": 4,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
           "name:8": "§6§lIntroduction",
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
             "id:8": "botania:cosmetic",
             "Count:3": 1,
             "Damage:2": 31,
@@ -729,54 +1439,47 @@
           "desc:8": "Basic info about this pack and some useful features you can use."
         }
       },
-      "order:3": 0
-    },
-    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -128,
-          "y:3": -60,
-          "id:3": 5,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -272,
+          "y:3": -144,
+          "id:3": 0
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -60,
-          "id:3": 6,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -256,
+          "y:3": -120,
+          "id:3": 1
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -112,
-          "y:3": -88,
-          "id:3": 7,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -240,
+          "y:3": -144,
+          "id:3": 2
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -80,
-          "y:3": -88,
-          "id:3": 8,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -208,
+          "y:3": -144,
+          "id:3": 3
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -64,
-          "y:3": -60,
-          "id:3": 9,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -88,
-          "id:3": 10,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -220,
+          "y:3": -120,
+          "id:3": 4
         }
       },
-      "lineID:3": 1,
+      "lineID:3": 0,
+      "order:3": 0
+    },
+    "1:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -792,23 +1495,186 @@
           "desc:8": "Oh that sweet moment when you started this pack for the fisrt time!"
         }
       },
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -252,
+          "y:3": -124,
+          "id:3": 5
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -220,
+          "y:3": -124,
+          "id:3": 6
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -220,
+          "y:3": -96,
+          "id:3": 7
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -96,
+          "id:3": 8
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -96,
+          "id:3": 9
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -68,
+          "id:3": 10
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -96,
+          "id:3": 11
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -68,
+          "id:3": 12
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -68,
+          "id:3": 13
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -40,
+          "id:3": 14
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -92,
+          "y:3": -96,
+          "id:3": 15
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -92,
+          "y:3": -124,
+          "id:3": 16
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -124,
+          "id:3": 17
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -124,
+          "id:3": 18
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -180,
+          "id:3": 19
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -220,
+          "y:3": -152,
+          "id:3": 20
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -152,
+          "id:3": 21
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -124,
+          "id:3": 22
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -92,
+          "y:3": -68,
+          "id:3": 23
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -180,
+          "id:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -180,
+          "id:3": 25
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -188,
+          "y:3": -40,
+          "id:3": 26
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -152,
+          "id:3": 27
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -152,
+          "id:3": 28
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -124,
+          "y:3": -40,
+          "id:3": 29
+        }
+      },
+      "lineID:3": 1,
       "order:3": 1
     }
   },
-  "questSettings:10": {
-    "betterquesting:10": {
-      "livesdef:3": 3,
-      "pack_name:8": "gtresurrection",
-      "home_anchor_y:5": 0.0,
-      "livesmax:3": 10,
-      "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
-      "hardcore:1": 0,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
-      "party_enable:1": 1,
-      "pack_version:3": 0,
-      "home_offset_x:3": -128,
-      "home_offset_y:3": 0
-    }
-  }
+  "format:8": "2.0.0"
 }

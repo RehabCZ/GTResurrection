@@ -146,12 +146,13 @@
 			"image": "",
 			"slideshow": {
 				"images": [
-					"gtresurrection:textures/menu/background/bg.png",
+					"gtresurrection:textures/menu/background/bg1.png",
 					"gtresurrection:textures/menu/background/bg2.png",
-					"gtresurrection:textures/menu/background/bg4.png",
-					"gtresurrection:textures/menu/background/bg7.png"
+					"gtresurrection:textures/menu/background/bg3.png",
+					"gtresurrection:textures/menu/background/bg4.png"
 				],
 				"displayDuration": 150,
+                "shuffle": true,
 				"fadeDuration": 40
 			}
 		}

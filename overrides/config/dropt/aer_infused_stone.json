@@ -1,0 +1,27 @@
+{
+    "rules": [
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "contenttweaker:aer_infused_stone"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "minecraft:string"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+
+                }
+            ]
+        }
+    ]
+}
