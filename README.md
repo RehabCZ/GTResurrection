@@ -1,4 +1,4 @@
-![GTResurrection](https://github.com/RehabCZ/GTResurrection/blob/main/overrides/resources/mainmenu/textures/GT_Resurrection.png?raw=true)
+![GTResurrection](https://raw.githubusercontent.com/RehabCZ/GTResurrection/main/overrides/resources/gtresurrection/textures/menu/logo/GT_Resurrection.png)
 
 
 # GT Resurrection
