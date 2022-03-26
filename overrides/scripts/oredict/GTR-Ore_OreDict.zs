@@ -112,7 +112,6 @@ for copper in unused_copper_ores {
 #   Tin   #
 val unused_tin_ores = [
     <mekanism:oreblock:2>,
-    <abyssalcraft:abytinore>,
     <forestry:resources:2>,
     <thermalfoundation:ore:1>,
     <libvulpes:ore0:5>
@@ -125,7 +124,6 @@ for tin in unused_tin_ores {
 
 #   Silver   #
 val unused_silver_ores = [
-    <immersiveengineering:ore:3>,
     <thermalfoundation:ore:2>,
     <iceandfire:silver_ore>
 ] as IItemStack[];
@@ -138,7 +136,6 @@ for silver in unused_silver_ores {
 #   Lead   #
 val unused_lead_ores = [
     <thermalfoundation:ore:3>,
-    <immersiveengineering:ore:2>
 ] as IItemStack[];
 
 for lead in unused_lead_ores { 
@@ -148,7 +145,6 @@ for lead in unused_lead_ores {
 
 #   Nickel   #
 val unused_nickel_ores = [
-    <immersiveengineering:ore:4>,
     <thermalfoundation:ore:5>
 ] as IItemStack[];
 
@@ -205,18 +201,10 @@ for sapphire in unused_sapphire_ores {
 <ore:orePlatinum>.remove(<thermalfoundation:ore:6>);
 JEI.removeAndHide(<thermalfoundation:ore:6>);
 
-#   Bauxite   #
-<ore:oreBauxite>.remove(<immersiveengineering:ore:1>);
-JEI.removeAndHide(<immersiveengineering:ore:1>);
-
 #   Rutile   #
 <ore:oreRutile>.remove(<libvulpes:ore0:8>);
 <ore:oreTitanium>.remove(<libvulpes:ore0:8>);
 JEI.removeAndHide(<libvulpes:ore0:8>);
-
-#   Uranium   #
-<ore:oreUranium>.remove(<immersiveengineering:ore:5>);
-JEI.removeAndHide(<immersiveengineering:ore:5>);
 
 #   Osmium    #
 <ore:oreOsmium>.remove(<mekanism:oreblock>);
