@@ -1,6 +1,3 @@
-# GregTech Rubber Planks
-tile.contenttweaker.rubber_planks.name=Rubber Wood Planks
-
 # Thaumcraft Infused Stones
 tile.contenttweaker.aer_infused_stone.name=Aer Infused Stone
 tile.contenttweaker.fire_infused_stone.name=Fire Infused Stone
@@ -8,3 +5,8 @@ tile.contenttweaker.water_infused_stone.name=Water Infused Stone
 tile.contenttweaker.earth_infused_stone.name=Earth Infused Stone
 tile.contenttweaker.entropy_infused_stone.name=Entropy Infused Stone
 tile.contenttweaker.order_infused_stone.name=Order Infused Stone
+
+# Primitive items
+item.contenttweaker.rock_stone.name=Stone Rock
+item.contenttweaker.flint_flake.name=Flint Flake
+item.contenttweaker.plant_fiber.name=Plant Fiber

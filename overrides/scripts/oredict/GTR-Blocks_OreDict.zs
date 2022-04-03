@@ -49,39 +49,4 @@ for block in dirt_blocks { <ore:dirt>.add(block); }
 # Skystone
 <ore:blockSkystone>.add(<appliedenergistics2:sky_stone_block>);
 
-# CraftingTable
-val crafting_table = [
-    <extendedcrafting:crafting_table>,
-    <primal:worktable_shelf>,
-    <primal:worktable_shelf:1>,
-    <primal:worktable_shelf:2>,
-    <primal:worktable_shelf:3>,
-    <primal:worktable_shelf:4>,
-    <primal:worktable_shelf:5>,
-    <primal:worktable_shelf:6>,
-    <primal:worktable_shelf:7>,
-    <primal:worktable_shelf:8>,
-    <primal:worktable_shelf:9>,
-    <primal:worktable_slab>,
-    <primal:worktable_slab:1>,
-    <primal:worktable_slab:2>,
-    <primal:worktable_slab:3>,
-    <primal:worktable_slab:4>,
-    <primal:worktable_slab:5>,
-    <primal:worktable_slab:6>,
-    <primal:worktable_slab:7>,
-    <primal:worktable_slab:8>,
-    <primal:worktable_slab:9>,
-] as IItemStack[];
-
-for table in crafting_table { 
-    <ore:craftingtable>.remove(table);
-    <ore:worktableSlab>.remove(table);
-    <ore:workbench>.remove(table);
-    mods.jei.JEI.removeAndHide(table);
-}
-
 <ore:worktable>.add(<randomthings:customworkbench>);
-
-# Planks
-<ore:plakWood>.add(<contenttweaker:rubber_planks>);

@@ -98,7 +98,6 @@ for diamond in unused_diamond_ores {
 val unused_copper_ores = [
     <mekanism:oreblock:1>,
     <forestry:resources:1>,
-    <immersiveengineering:ore>,
     <mekanism:oreblock:1>,
     <thermalfoundation:ore>,
     <libvulpes:ore0:4>
@@ -205,6 +204,7 @@ JEI.removeAndHide(<thermalfoundation:ore:6>);
 <ore:oreRutile>.remove(<libvulpes:ore0:8>);
 <ore:oreTitanium>.remove(<libvulpes:ore0:8>);
 JEI.removeAndHide(<libvulpes:ore0:8>);
+
 
 #   Osmium    #
 <ore:oreOsmium>.remove(<mekanism:oreblock>);

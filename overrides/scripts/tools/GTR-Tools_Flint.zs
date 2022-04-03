@@ -43,14 +43,14 @@ for item in flint_tools {
 # TConstruct Flint Shard
 recipes.addShapedMirrored("TConstruct Flint Shard",<tconstruct:shard>.withTag({Material: "flint"}), [
     [null, null, null],
-    [null, null, <ore:flakeFlint>], 
-    [null, <ore:flakeFlint>, null]
+    [null, null, <ore:itemFlint>], 
+    [null, <ore:itemFlint>, null]
 ]);
 
 # TConstruct Flint Pickaxe Head
 recipes.addShaped("TConstruct Flint Pickaxe Head",flint_pick_head, [
-    [null,<ore:flakeFlint>, <ore:itemFlint>],
-    [null, null, <ore:flakeFlint>], 
+    [null,<ore:itemFlint>, <ore:itemFlint>],
+    [null, null, <ore:itemFlint>], 
     [null, null, null]
 ]);
 
@@ -68,8 +68,8 @@ recipes.addShapeless("TConstruct Flint Shovel Head",flint_shovel_head, [
 
 # TConstruct Flint Axe Head
 recipes.addShaped("TConstruct Flint Axe Head",flint_axe_head, [
-    [<ore:flakeFlint>, <ore:itemFlint>, null],
-    [<ore:flakeFlint>, null, null], 
+    [<ore:itemFlint>, <ore:itemFlint>, null],
+    [<ore:itemFlint>, null, null], 
     [null, null, null]
 ]);
 
