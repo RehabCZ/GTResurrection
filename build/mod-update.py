@@ -5,7 +5,7 @@ import requests, os
 MANIFEST = "https://raw.githubusercontent.com/RehabCZ/GTResurrection/main/manifest.json"
 
 if os.path.exists("dump.txt"):
-  print("🗑️ | Deleting old dump file...")
+  print("Deleting old dump file...",flush=True)
   os.remove("dump.txt")
 
 log = open("dump.txt", 'a')
@@ -13,17 +13,17 @@ log = open("dump.txt", 'a')
 def getLatestFile(id: int):
   response = requests.get("https://api.cfwidget.com/" + str(id))
   result = response.json()
-  return result['versions']["1.12.2"][0]['id']
+  return int(result['versions']["1.12.2"][0]['id'])
 
 def getModName(id: int):
   response = requests.get("https://api.cfwidget.com/" + str(id))
   result = response.json()
-  return result['title']
+  return str(result['title']).encode('ascii', 'ignore').decode('ascii')
 
 def getManifestMods(manifest: str):
   response = requests.get(manifest)
   result = response.json()
-  return result['files']
+  return list(result['files'])
 
 def logResult(name: str, projId: int, fileId: int, latestId: int):
   log.write("\nName: " + name)
@@ -40,11 +40,11 @@ for mod in getManifestMods(MANIFEST):
 for mod in MODLIST:
   project = [mod['projectID'],mod['fileID']]
   name = getModName(project[0])
-  print(f"🔍 | Checking mod {name} for update!")
+  print("Checking mod " + name +" for update!",flush=True)
   latest_file = getLatestFile(project[0])
   if latest_file != project[1]:
     logResult(name, project[0], project[1], latest_file)
-    print("✅ | New version found for " + name)
+    print("New version found for " + name, flush=True)
 
 log.close()
-print("✅ | Done! Results can be found in dump.txt file")
+print("Done! Results can be found in dump.txt file")
